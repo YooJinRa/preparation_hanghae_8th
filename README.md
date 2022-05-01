@@ -7,8 +7,7 @@
 
 ## 1주차
 > ### 요약
-> [부트스트랩](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
-> 부트스트랩 기본 설정
+> [부트스트랩](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 기본설정 : 
 ```
 <!doctype html>
 <html lang="en">
@@ -22,13 +21,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
     <title>title</title>
 </head>
-
-<body> </body>
+<body></body>
 </html>
 ```
 > [구글 웹폰트](https://fonts.google.com/?subset=korean)
-> 
+> CSS : 내용 가운데 정렬하기
+```
+display: flex;
+flex-direction: column; /* row : 나란히 */
+justify-content: center;
+align-items: center;
+```
+
 
