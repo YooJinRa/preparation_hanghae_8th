@@ -38,6 +38,4 @@ align-items: center;
 
 ---
 
-> ### 느낀점
-> 
 
