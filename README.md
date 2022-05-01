@@ -34,5 +34,10 @@ flex-direction: column; /* row : 나란히 */
 justify-content: center;
 align-items: center;
 ```
+> Javascript : 변수, 자료형, 함수, 조건문, 반복문
 
+---
+
+> ### 느낀점
+> 
 
