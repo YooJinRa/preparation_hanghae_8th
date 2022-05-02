@@ -1,6 +1,6 @@
 ## 웹개발 종합반 강의 진행사항
 - [x] 1주차 : HTML, CSS, Javascript 기본 이해하기(+부트스트랩 사용법) / 팬명록 페이지 만들기 과제
-- [x] 2주차 : Jquery, Ajax로 api 데이터 가져오기 / 팬명록 페이지에 현재 서울 기온 
+- [x] 2주차 : jQuery, Ajax로 API 데이터 가져오기(미세먼지, 따릉이, 서울기온) / 팬명록 페이지에 현재 서울 기온 삽입
 - [ ] 3주차
 - [ ] 4주차
 - [ ] 5주차
@@ -37,5 +37,25 @@ align-items: center;
 > Javascript : 변수, 자료형, 함수, 조건문, 반복문
 
 ---
+
+## 2주차
+> ### 요약
+> jQuery : hide() / show() / empty() / append() / attr() / text() / includes() / split()
+> Ajax 기본 구조
+```
+$.ajax({
+  type: "GET",
+  url: "URL입력",
+  data: {},
+  success: function(response){
+    console.log(response)
+  }
+})
+```
+>for문
+```
+for(let i = 0; i < a.length; i++){
+    console.log(a);
+}
 
 
