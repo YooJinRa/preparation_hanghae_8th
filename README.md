@@ -41,6 +41,7 @@ align-items: center;
 ## 2주차
 > ### 요약
 > jQuery : hide() / show() / empty() / append() / attr() / text() / includes() / split()
+> 
 > Ajax 기본 구조
 ```
 $.ajax({
@@ -57,5 +58,5 @@ $.ajax({
 for(let i = 0; i < a.length; i++){
     console.log(a);
 }
-
+```
 
