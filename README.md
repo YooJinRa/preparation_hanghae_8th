@@ -69,8 +69,11 @@ for(let i = 0; i < a.length; i++){
 ## 3주차
 > ### 요약
 > mongoDB 기본 세팅 : 개발환경에 따라 아래와 같은 오류가 나서 해결
+> 
 > 'certifi' 패키지 추가 설정 및 불러오기 및 client 변수 끝에 tlsCAFile=ca 값 추가
-<img src="" width=1000px>
+> 
+<img src="https://github.com/YooJinRa/preparation_hanghae_8th/blob/main/image01.png" width=1000px>
+
 ```
 from pymongo import MongoClient
 import certifi
